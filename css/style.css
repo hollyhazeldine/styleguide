@@ -498,7 +498,7 @@ select {
 
 /* Buttons
 -------------------------------------------------- */
-.button,
+.components .button,
 button,
 input[type="submit"],
 input[type="reset"],
@@ -513,7 +513,7 @@ input[type="button"] {
     cursor: pointer;
     border-radius: 4px;
 }
-.button:hover,
+.components .button:hover,
 button:hover,
 input[type="submit"]:hover,
 input[type="reset"]:hover,
