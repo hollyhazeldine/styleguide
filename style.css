@@ -542,6 +542,19 @@ td:last-child {
     padding-right: 0;
 }
 
+/* Table
+-------------------------------------------------- */
+table {
+  width: 100%;
+}
+th, td {
+  border-bottom: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+
+
+
 /* Tabs
 -------------------------------------------------- */
 .tab {
@@ -621,7 +634,7 @@ td:last-child {
 .expanding-grid h6 {
     margin: 0;
 }
-.column {
+.components .column {
     text-align: center;
     font-size: 25px;
     cursor: pointer;
