@@ -224,11 +224,11 @@ ul.breadcrumb li+li:before {
     .ten.columns,
     .eleven.columns,
     .twelve.columns, {
-        width: 100%
+        width: 100%;
     }
     .column,
     .columns {
-        margin-left: 0%
+        margin-left: 0%;
     }
     
 }
@@ -448,11 +448,12 @@ input[type="password"],
 textarea,
 select {
     padding: 6px 2%;
+    padding-left: 10px;
     background-color: #fff;
     border: 1px solid #D1D1D1;
     border-radius: 4px;
     box-shadow: none;
-    width: 95%
+    width: 96%
 }
 input[type="email"],
 input[type="number"],
@@ -642,6 +643,7 @@ th, td {
 }
 img.headshot {
     border-radius: 100%;
+    width: 100%;
 }
 .containerTab {
     position: relative;
@@ -670,7 +672,7 @@ img.headshot {
     box-shadow: 0 0px 8px 0 rgba(0,0,0,0.25);
 }
 .card.three.columns {
-    width: 18%
+    width: 18%;
 }
 @media (max-width: 800px) {
     .card.three.columns {
@@ -700,6 +702,7 @@ img.headshot {
 }
 .image-container img {
     margin-bottom: -8px;
+    width: 100%;
 }
 .image-container .overlay {
     position: absolute;
